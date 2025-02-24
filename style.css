@@ -1,0 +1,41 @@
+:root{
+    --cor-principal: #2d3aaf;
+    --cor-secundaria: #e6e6e6;
+    --cor-terciaria:#d6d6d6;
+    --cor-letra-principal: #ffffff;
+    font-size: 23px;
+
+}
+body {
+    background-color: var(--cor-secundaria);
+    font: size 2rem;
+    margin: 0;
+}
+header {
+    text-align: center;
+    background-color: var(--cor-principal);
+    color: var(--cor-letra-principal);
+    padding: 10px;
+}
+main {
+    margin: 10px;
+    background-color: var(--cor-terciaria);
+}
+h1{
+    padding-left: 10px;
+}
+p{
+    padding-left: 10px;
+    padding-right: 120px;
+}
+img{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    width: auto;
+    height: 500px;
+}
+section{
+    margin: 10px;
+    background-color: var(--cor-terciaria);
+}
